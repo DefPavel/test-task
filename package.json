@@ -1,8 +1,8 @@
 {
   "name": "test-task",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "simple nest.js (rest api)",
+  "author": "DefPavel",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -24,13 +24,14 @@
     "@nestjs/config": "^3.3.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
-    "@nestjs/typeorm": "^10.0.2",
+    "@nestjs/swagger": "^8.1.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "compression": "^1.7.5",
     "pg": "^8.13.1",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
+    "swagger-ui-express": "^5.0.1",
     "typeorm": "^0.3.20",
     "typeorm-extension": "^3.6.3"
   },

@@ -1,10 +1,10 @@
-import { TASKS_TOKENS } from 'src/common/constant';
+import { TASKS_SERVICE } from 'src/common/constant';
 
 import { TasksService } from './tasks.service';
 
 export const tasksProviders = [
   {
-    provide: TASKS_TOKENS.taskService,
+    provide: TASKS_SERVICE,
     useClass: TasksService,
   },
 ];

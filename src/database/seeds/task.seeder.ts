@@ -9,6 +9,6 @@ export default class TaskSeeder implements Seeder {
 
     await userFactory.save();
 
-    await userFactory.saveMany(10);
+    await userFactory.saveMany(100);
   }
 }

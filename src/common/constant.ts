@@ -1,7 +1,2 @@
-export const DATABASE_TOKENS = {
-  databaseProvide: 'databaseProvide',
-} as const;
-
-export const TASKS_TOKENS = {
-  taskService: 'taskService',
-} as const;
+export const DATABASE_PROVIDER = 'DATABASE_PROVIDER';
+export const TASKS_SERVICE = 'TASKS_SERVICE';
